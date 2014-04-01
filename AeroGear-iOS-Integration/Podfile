@@ -2,8 +2,8 @@ xcodeproj 'AeroGear-iOS-Integration.xcodeproj'
 
 platform :ios, '7.0'
 
-pod 'AeroGear', :git => 'https://github.com/cvasilak/aerogear-ios.git', :branch => 'AGIOS-181'
-pod 'AeroGear-Crypto', :git => 'https://github.com/cvasilak/aerogear-crypto-ios.git', :branch => 'error'
+pod 'AeroGear', '1.5.0'
+pod 'AeroGear-Crypto', '0.2.3'
 
 target 'AeroGear-iOS-IntegrationTests', :exclusive => true do
     # we need to rely on a specific commit on 'master' cause of kiwi bug: https://github.com/allending/Kiwi/pull/370
