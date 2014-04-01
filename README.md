@@ -14,7 +14,17 @@ This installs all the required dependencies and generates the _AeroGear-iOS-Inte
 
 ## Test cases
 
-The test cases are executed against a _LOCAL_ installation of our [AeroGear TODO](https://github.com/aerogear/TODO) 'application'...
+The test cases are executed against either a backend deployed on OpenShift in:
+
+- for [AGRestAuthenticationSpec](http://jaxrs-aerogear.rhcloud.com/aerogear-jaxrs-demo/rest/)
+- for [AGHttpAuthentication](http://controller-aerogear.rhcloud.com/aerogear-controller-demo): to be migrated to jaxrs
+
+or an Open Backend like:
+
+- [WorldOfWarcraft](http://us.battle.net/api/wow)
+- [Github API](https://api.github.com/users/matzew/gists)
+
+NOTE: If some tests are failing, please check the availability of the backend end first. 
 
 ## Getting started
 
